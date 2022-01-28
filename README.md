@@ -1,4 +1,4 @@
-# frontend-course
+# Front-end Course
 
 # GIT
 ## versionamento
