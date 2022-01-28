@@ -1,0 +1,52 @@
+.header .t-1 {
+    font-size: 400%;
+    text-transform: none;
+}
+
+.header .t-2 {
+    font-size: 250%;
+}
+
+.header .t-3 {
+    font-size: 230%;
+}
+
+.header .t-4 {
+    font-size: 200%;
+}
+
+.header .t-5 {
+    font-size: 190%;
+}
+
+.header .t-6 {
+    font-size: 150%;
+}
+
+.blockquote {
+    font-size: 150%;
+}
+
+.header .t-1:hover {
+    color: #A6836F;
+}
+
+.header .t-2:hover {
+    color: #A6836F;
+}
+
+.header .t-3:hover {
+    color: #A6836F;
+}
+
+.header .t-4:hover {
+    color: #A6836F;
+}
+
+.header .t-5:hover {
+    color: #A6836F;
+}
+
+.header .t-6:hover {
+    color: #A6836F;
+}

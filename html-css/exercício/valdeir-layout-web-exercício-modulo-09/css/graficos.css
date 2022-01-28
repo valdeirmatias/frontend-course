@@ -1,0 +1,64 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+footer {
+    color: white;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+div {
+    margin: 40px auto;
+}
+
+#grafico-01 {
+    background-color: #7C748C;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 20%;
+}
+
+#grafico-01 img {
+    width: 100%;
+}
+
+
+/* Triângulo */
+
+#grafico-02 {
+    background: transparent;
+    border-style: solid;
+    border-width: 60px 0 60px 120px;
+    border-color: transparent transparent transparent blue;
+    width: 60px;
+}
+
+#imagem-vetorial {
+    width: 100px;
+}
+
+#canvas {
+    height: 300px;
+    width: 300px;
+}
+
+
+/* Filtros */
+
+#grafico-01 {
+    filter: drop-shadow(5px 2px #7C748C);
+    max-width: 100%;
+    height: auto;
+}
+
+.filtro:hover {
+    filter: grayscale(100%);
+}

@@ -22,6 +22,7 @@
 ## Criar conta no GitHub
 
 ## Clonar o projeto
+git clone https://github.com/valdeirmatias/frontend-course.git
 
 ## Commits
 Informação de alteração
