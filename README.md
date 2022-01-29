@@ -1,5 +1,4 @@
 # Front-end Course
-#### EBAC
 
 # GIT
 ## versionamento
@@ -31,6 +30,7 @@ Informação de alteração
 - git add *
 - git commit -m "mensagem"
 - git push (eviar alterações para o repositório)
+- git pull (puxar / trazer alterações do gitHub para sua máquina)
 
 ## GitFlow
 Fluxo do Git
