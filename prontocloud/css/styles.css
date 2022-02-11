@@ -21,12 +21,12 @@ body {
 }
 
 header {
-    background: #fff;
-    display: block;
-    float: left;
-    padding: 20px;
-    width: 100%;
-    border-bottom: 1px solid #254159;
+  background: #fff;
+  display: block;
+  float: left;
+  padding: 20px;
+  width: 100%;
+  border-bottom: 1px solid #254159;
 }
 
 h1 {
@@ -70,6 +70,28 @@ p {
   color: #333;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#tenho-interesse {
+  background-color: #b8c8d6;
+  width: 100%;
+}
+
+#tenho-interesse,
+.cog-form__content {
+  background-color: #b8c8d6 !important;
+}
+
+#tenho-interesse,
+.cognito-heading h1,
+#tenho-interesse .cog-label,
+#tenho-interesse .cog-header__text h1 {
+  color: #385874 !important;
+}
+
 section {
   background-color: #fff;
   display: block;
@@ -108,7 +130,6 @@ section article {
   display: block;
   float: left;
   width: 70%;
-
 }
 
 footer {
@@ -130,3 +151,7 @@ footer small {
   display: block;
 }
 
+.cognito {
+  height: 400px !important;
+  overflow: hidden !important;
+}
