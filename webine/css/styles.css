@@ -8,30 +8,32 @@ body {
 }
 
 .main-container {
-  max-width: 100%;
+  display: block;
+  width: 100%;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .container {
   display: block;
-  float: left;
-  padding: 20px;
-  width: 100%;
+  padding: 0;
   margin: 0 auto;
+  width: 98%;
+  max-width: 1198px;
 }
 
 header {
-  background: #fff;
+  background: #fffffc;
   display: block;
   float: left;
-  padding: 20px;
+  padding: 20px 0;
   width: 100%;
   border-bottom: 1px solid #254159;
 }
 
 h1 {
   font-size: 2.4rem;
-  color: #254159;
+  color: #083359;
   margin-bottom: 20px;
 }
 
@@ -83,7 +85,7 @@ img {
 
 #tenho-interesse,
 .cog-form__content {
-  background-color: #b8c8d6 !important;
+  background-color: #f2f2f2 !important;
 }
 
 #tenho-interesse,
@@ -98,7 +100,7 @@ section {
   display: block;
   float: left;
   font-size: 1.5rem; /* equivalente a 15px */
-  padding: 20px;
+  padding: 20px 0;
   width: 100%;
 }
 
@@ -134,12 +136,12 @@ section article {
 }
 
 footer {
-  background-color: #254159;
+  background-color: #012840;
   color: #fff;
   display: block;
   float: left;
+  padding: 20px 0;
   width: 100%;
-  padding: 20px;
 }
 
 footer p {
@@ -157,6 +159,92 @@ footer small {
   overflow: hidden !important;
 }
 
+#banner {
+  background-image: url("../images/banne_r.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 60vh;
+}
+
+.legenda-container {
+  width: 50vh;
+  float: right;
+  margin: 10% 0 0 0;
+}
+
+.legenda {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 5rem;
+}
+
+.legenda h5,
+.legenda h4 {
+  font-size: 1.2em;
+  color: #011826;
+  line-height: 150%;
+}
+
+.button-cta {
+  border-radius: 25px;
+  display: inline;
+  background-color: #c24b23;
+  color: #fff;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  /*box-shadow: 1px 1px 4px #454545;*/
+  padding: 10px 15px;
+  width: auto;
+  text-decoration: none;
+  font-weight: 300;
+  float: right;
+  margin: 20px auto;
+}
+
+.button-cta:hover {
+  border: 2px solid #f5f5f5;
+}
+
+#saiba-mais {
+  background-color: #f2f2f2;
+  padding: 40px 0px;
+}
+
+#saiba-mais p,
+#saiba-mais img {
+  width: 45%;
+  display: block;
+  float: left;
+  padding: 20px;
+}
+
+#perguntas-frequentes {
+  background-color: #fffffc;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+dl {
+  margin: 20px 0;
+}
+
+dt {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #195073;
+  margin-bottom: 5px;
+}
+
+dd {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+}
+
 /* @media */
 
 /* max-widt 768px */
@@ -164,6 +252,38 @@ footer small {
 @media (max-width: 768px) {
   section nav,
   section article {
+    width: 100%;
+    height: auto;
+  }
+
+  .legenda-container {
+    width: 90%;
+    height: auto;
+    float: left !important;
+    margin-left: 4% !important;
+  }
+
+  .legenda h5,
+  .legenda h4 {
+    font-size: 1.8rem;
+  }
+
+  .container h1 {
+    font-size: 1.8rem;
+    margin-left: 5%;
+  }
+
+  .button-cta {
+    float: left;
+    margin-left: 25%;
+  }
+
+  #saiba-mais img {
+    width: 100%;
+  }
+
+  #saiba-mais p {
+    font-size: 1.5rem;
     width: 100%;
     height: auto;
   }
@@ -211,13 +331,38 @@ footer small {
     margin: 15px;
   }
 
+  dt {
+    margin-left: 5%;
+  }
+
+  dd {
+    margin-left: 7%;
+  }
+
+  #tenho-interesse p {
+    font-size: 1.5rem;
+  }
+
+  #tenho-interesse p,
+  #tenho-interesse h1 {
+    margin: 20px 0;
+  }
+
   #cog-0,
   .el-input__inner {
     width: 90% !important;
   }
 }
 
-/* max-widt 375px */
+/* mobile */
+
+@media (max-width: 428px) {
+  #saiba-mais p {
+    font-size: 1.5rem;
+    width: 95%;
+    height: auto;
+  }
+}
 
 @media (max-width: 425px) {
   section nav,
@@ -228,6 +373,38 @@ footer small {
   .container {
     padding-left: 1%;
     padding-right: 1%;
+  }
+
+  .container h1 {
+    font-size: 1.8rem;
+    margin-left: 5%;
+  }
+
+  .legenda-container {
+    width: 90%;
+    height: auto;
+    float: left;
+    margin-left: 20px;
+  }
+
+  .legenda h5,
+  .legenda h4 {
+    font-size: 1.8rem;
+  }
+
+  .button-cta {
+    float: left;
+    margin-left: 25%;
+  }
+
+  #saiba-mais img {
+    width: 100%;
+  }
+
+  #saiba-mais p {
+    font-size: 1.5rem;
+    width: 100%;
+    height: auto;
   }
 
   section nav {
@@ -267,6 +444,23 @@ footer small {
     margin: 15px;
   }
 
+  dt {
+    margin-left: 5%;
+  }
+
+  dd {
+    margin-left: 7%;
+  }
+
+  #tenho-interesse p {
+    font-size: 1.5rem;
+  }
+
+  #tenho-interesse p,
+  #tenho-interesse h1 {
+    margin: 20px 0;
+  }
+
   #cog-0,
   .el-input__inner {
     width: 90% !important;
@@ -284,6 +478,38 @@ footer small {
   .container {
     padding-left: 1%;
     padding-right: 1%;
+  }
+
+  .legenda-container {
+    width: 90%;
+    height: auto;
+    float: left;
+    margin-left: 20px;
+  }
+
+  .legenda h5,
+  .legenda h4 {
+    font-size: 1.8rem;
+  }
+
+  .container h1 {
+    font-size: 1.8rem;
+    margin-left: 5%;
+  }
+
+  .button-cta {
+    float: left;
+    margin-left: 25%;
+  }
+
+  #saiba-mais img {
+    width: 100%;
+  }
+
+  #saiba-mais p {
+    font-size: 1.5rem;
+    width: 100%;
+    height: auto;
   }
 
   section nav {
@@ -321,6 +547,23 @@ footer small {
 
   ol {
     margin: 15px;
+  }
+
+  dt {
+    margin-left: 5%;
+  }
+
+  dd {
+    margin-left: 7%;
+  }
+
+  #tenho-interesse p {
+    font-size: 1.5rem;
+  }
+
+  #tenho-interesse p,
+  #tenho-interesse h1 {
+    margin: 20px 0;
   }
 
   #cog-0,
