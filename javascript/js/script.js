@@ -79,7 +79,7 @@ if (formulario1)
 
 function validaCampo(elemento) {
 
-    elemento.addEventListener('focusout', function (event) {
+    elemento.addEventListener('submit', function (event) {
 
         event.preventDefault();
 
