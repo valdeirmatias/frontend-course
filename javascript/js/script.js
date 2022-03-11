@@ -308,6 +308,6 @@ for (let emFoco of camposEmail) {
     validaEmail(emFoco);
 }
 
-for (let emFoco of camposEmail) {
+for (let emFoco of campoUf) {
     validaUf(emFoco);
 }
