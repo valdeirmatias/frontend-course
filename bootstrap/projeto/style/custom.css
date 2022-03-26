@@ -1,15 +1,32 @@
-section {
-  padding-bottom: 4rem;
-  padding-top: 4rem;
+.container .col-md-12 {
+  margin-bottom: 15px;
 }
 
-input,
-textarea {
-  margin-bottom: 1rem;
+h1 .text-uppercase {
+  margin-left: -24px;
+  margin-top: 4px;
+}
+
+section {
+  margin-bottom: 15px;
+}
+
+.button-top {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background: var(--bs-gray-dark);
+  border-style: none;
+  border-color: var(--bs-pink);
 }
 
 .card {
-  width: 32%;
-  float: left;
-  margin: 5px;
+  margin-bottom: 15px;
+}
+
+#modal-1 .gg,
+#modal-2 .pp,
+.mm,
+#modal-3 .pp {
+  text-decoration: line-through;
+  color: red;
 }
