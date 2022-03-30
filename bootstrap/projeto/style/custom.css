@@ -33,3 +33,7 @@ section {
   text-decoration: line-through;
   color: red;
 }
+
+input, textarea {
+  margin-bottom: 15px;
+}
